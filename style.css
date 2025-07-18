@@ -81,3 +81,15 @@ body {
     border: 1px solid #d0d0d0;
     background-color: #E8E8E8;
 }
+
+.page-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.page-content p,
+.page-content h1,
+.page-content h2,{
+    max-width: 600px;
+}
