@@ -11,10 +11,15 @@ body {
 
 .site-header .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
 }
 
+@media (min-width: 768px) {
+  .header-container {
+    flex-direction: column;
+  }
+}
 .site-header .logo {
   max-width: 200px;
   height: auto;
@@ -66,4 +71,13 @@ body {
 .project-text p {
   font-size: 1rem;
   line-height: 1.6;
+}
+
+.project-page-image{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid #d0d0d0;
+    background-color: #E8E8E8;
 }
