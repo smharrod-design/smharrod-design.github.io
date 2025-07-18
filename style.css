@@ -1,3 +1,35 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.site-header {
+  background-color: #eeeeee;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.site-header .container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.site-header .logo {
+  max-width: 200px;
+  height: auto;
+}
+
+.site-header .header-text {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.site-header a {
+  color: #b22222;
+  text-decoration: none;
+}
+
 .project-link {
   text-decoration: none;
   color: inherit;
