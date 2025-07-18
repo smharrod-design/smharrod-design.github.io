@@ -1,6 +1,5 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
-    background-color: yellow;
 }
 
 .site-header {
@@ -31,6 +30,10 @@ body {
   text-decoration: none;
 }
 
+.home-project-title {
+  margin: 0 auto;
+  display: block;
+}
 .project-link {
   text-decoration: none;
   color: inherit;
