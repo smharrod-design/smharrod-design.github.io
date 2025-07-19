@@ -15,6 +15,7 @@ body {
   flex-direction: row;
   gap: 4rem;
   align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -22,6 +23,7 @@ body {
     flex-direction: column;
     gap: 0rem;
     align-items: normal;
+    margin-top: 1rem;
   }
 }
 .site-header .logo {
