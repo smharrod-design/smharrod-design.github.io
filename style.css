@@ -5,7 +5,7 @@ body {
 
 .site-header {
   background-color: #eeeeee;
-  padding: 1rem;
+  padding: 1rem 2rem;  
   margin-bottom: 2rem;
   border-radius: 8px;
 }
@@ -13,12 +13,15 @@ body {
 .site-header .container {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 4rem;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
 .site-header .container {
     flex-direction: column;
+    gap: 0rem;
+    align-items: normal;
   }
 }
 .site-header .logo {
@@ -48,7 +51,7 @@ body {
 
 .project-card {
   background-color: white;
-  border-radius: 12px;
+  border-radius: 24px;
   border: 1px solid #d0d0d0;
   padding: 1.5rem;
   margin: 2rem 1rem;
@@ -68,6 +71,8 @@ body {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 1rem;
+  max-height: 500px;
+  object-fit: cover;
 }
 
 .project-text h2 {
