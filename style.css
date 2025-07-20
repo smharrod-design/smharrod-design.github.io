@@ -138,6 +138,9 @@ body {
   margin-right: auto;
   max-width: 1000px;
   display: block;
+  border: 1px solid #d0d0d0;
+  background-color: #E8E8E8;
+  padding: 1rem;
 }
 
 html {
