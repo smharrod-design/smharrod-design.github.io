@@ -27,7 +27,7 @@ body {
   }
 }
 .site-header .logo {
-  max-width: 200px;
+  width: 280px;
   height: auto;
 }
 
@@ -41,7 +41,7 @@ body {
   text-decoration: none;
 }
 
-.home-project-title {
+.home-titles {
   margin: 0 auto;
   display: block;
 }
@@ -118,4 +118,11 @@ body {
     margin-right: auto;
     text-decoration: none;
     text-align: center;
+}
+.site-footer {
+  background-color: #eeeeee;
+  padding: 1rem 2rem;  
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  text-align: center;
 }
