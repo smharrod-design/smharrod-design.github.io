@@ -139,3 +139,7 @@ body {
   max-width: 1000px;
   display: block;
 }
+
+html {
+  scroll-behavior: smooth;
+}
