@@ -107,7 +107,7 @@ body {
     padding: 1rem;
 }
 
-.page-content p, .page-content h1, .page-content h2 {
+.page-content p, .page-content h1, .page-content h2, .page-content ul {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
