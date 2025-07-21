@@ -77,6 +77,8 @@ body {
   margin-bottom: 1rem;
   max-height: 500px;
   object-fit: cover;
+  background-color: #ededed;
+  border: 1px solid #d0d0d0;
 }
 
 .project-text h2 {
@@ -96,7 +98,7 @@ body {
     border-radius: 8px;
     margin-bottom: 1rem;
     border: 1px solid #d0d0d0;
-    background-color: #E8E8E8;
+    background-color: #ededed;
     box-sizing: border-box;
     padding: 1rem;
 }
