@@ -9,6 +9,12 @@ body {
   margin-bottom: 2rem;
   border-radius: 8px;
 }
+.page-header {
+  background-color: #eeeeee;
+  padding: 1rem 2rem;  
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
 
 .site-header .container {
   display: flex;
@@ -19,11 +25,15 @@ body {
 }
 
 @media (max-width: 768px) {
-.site-header .container {
+  .site-header .container {
     flex-direction: column;
     gap: 0rem;
     align-items: normal;
     margin-top: 1rem;
+  }
+  .page-header .logo {
+    width: 200px;
+    height: auto;
   }
 }
 .site-header .logo {
