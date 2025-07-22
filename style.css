@@ -4,10 +4,11 @@ body {
 }
 
 .site-header, .page-header {
-  background-color: #eeeeee;
+  background-color: #ededed;
   padding: 1rem 2rem;  
   margin-bottom: 2rem;
   border-radius: 8px;
+  border: 1px solid #d0d0d0;
 }
 
 .site-header .container,
@@ -145,11 +146,12 @@ body {
     text-align: center;
 }
 .site-footer {
-  background-color: #eeeeee;
+  background-color: #ededed;
   padding: 1rem 2rem;  
   margin-top: 4rem;
   border-radius: 8px;
   text-align: center;
+  border: 1px solid #d0d0d0;
 }
 
 .other-work-image {
@@ -243,7 +245,7 @@ input:focus, textarea:focus {
   justify-content: center;
   padding: 2rem;
 }
-.containder-404 button a {
+.container-404 button a {
   color: #fff;
   text-decoration: none;
 }
