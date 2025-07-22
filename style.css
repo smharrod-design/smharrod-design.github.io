@@ -29,8 +29,8 @@ body {
   .site-header .container,
   .page-header .container {
     flex-direction: column;
-    gap: 0rem;
-    align-items: normal;
+    gap: 2rem;
+    align-items: center;
     margin-top: 1rem;
   }
   .page-header .logo {
@@ -161,4 +161,44 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+form {
+  border: 1px solid #dedede;
+  background: #f0f0f0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+  gap: 2rem;
+  border-radius: 1rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  min-height: 42px;
+}
+
+textarea {
+  min-height: 42px;
+}
+
+button {
+  min-height: 42px;
+  background: #b32b3c;
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+}
+
+label::after {
+  content: '*';
+  color: red;
 }
