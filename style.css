@@ -19,6 +19,12 @@ body {
   justify-content: center;
 }
 
+.header-text {
+  display: inline-flex;
+  flex-wrap: wrap
+  gap: 1rem;
+}
+
 @media (max-width: 768px) {
   .site-header .container,
   .page-header .container {
