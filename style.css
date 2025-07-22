@@ -69,7 +69,8 @@ body {
   color: inherit;
   display: block;
 }
-a:hover {
+.site-header a:hover,
+.site-footer a:hover {
   text-decoration: underline;
 }
 
