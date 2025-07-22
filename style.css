@@ -249,3 +249,10 @@ input:focus, textarea:focus {
   color: #fff;
   text-decoration: none;
 }
+
+.not-found-gif {
+  border: 1px solid #d0d0d0;
+  border-radius: 300px;
+  background: #ededed;
+  height: 160px;
+}
