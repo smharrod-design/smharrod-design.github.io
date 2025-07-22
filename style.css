@@ -23,6 +23,7 @@ body {
   display: inline-flex;
   flex-wrap: wrap;
   gap: 1rem;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -172,20 +173,16 @@ form {
   max-width: 300px;
   margin: auto;
   gap: 2rem;
-  border-radius: 1rem;
+  border-radius: 24px;
 }
 
 label {
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
 }
 
-input {
+input, textarea {
   min-height: 42px;
-}
-
-textarea {
-  min-height: 42px;
+  width: 100%;
 }
 
 button {
@@ -193,12 +190,17 @@ button {
   background: #b32b3c;
   color: #ffffff;
   font-size: 18px;
-  text-transform: uppercase;
   font-weight: bold;
   border: none;
 }
 
 label::after {
   content: '*';
-  color: red;
+  color: #b32b3c;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid #d9949c;
+  outline-offset: 1px;
+  border-color: #b32b3c;
 }
