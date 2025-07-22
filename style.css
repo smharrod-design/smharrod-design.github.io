@@ -219,3 +219,19 @@ input:focus, textarea:focus {
   outline-offset: 1px;
   border-color: #b32b3c;
 }
+
+.stat-list {
+  list-style: none;
+  padding: 0;
+  font-family: monospace;
+}
+
+.stat-list li {
+  display: flex;
+  gap: 1rem;
+}
+.number {
+  width: 4ch;
+  text-align: right;
+  font-weight: bold;
+}
