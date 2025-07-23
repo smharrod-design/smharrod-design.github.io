@@ -11,8 +11,7 @@ body {
   border: 1px solid #d0d0d0;
 }
 
-.site-header .container,
-.page-header .container {
+.site-header .container {
   display: flex;
   flex-direction: row;
   gap: 4rem;
@@ -28,15 +27,14 @@ body {
 }
 
 @media (max-width: 768px) {
-  .site-header .container,
-  .page-header .container {
+  .site-header .container {
     flex-direction: column;
     gap: 2rem;
     align-items: center;
+    justify-content: center;
     margin-top: 1rem;
   }
   .page-header .logo {
-    width: 280px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -46,7 +44,7 @@ body {
   }
 }
 .site-header .logo {
-  width: 280px;
+  width: 160px;
   height: auto;
 }
 
@@ -234,7 +232,7 @@ input:focus, textarea:focus {
   gap: 1rem;
 }
 .number {
-  width: 4ch;
+  width: 5ch;
   text-align: right;
   font-weight: bold;
 }
