@@ -45,6 +45,9 @@ a {
   .header-text {
     justify-content: center;
   }
+  body {
+    margin: 1rem;
+  }
 }
 .site-header .logo {
   width: 160px;
