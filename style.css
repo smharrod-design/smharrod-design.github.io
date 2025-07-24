@@ -119,11 +119,12 @@ body {
 .project-page-image{
     width: 100%;
     height: auto;
-    margin-bottom: 1rem;
+    margin: 4rem 0rem;
     border: 1px solid #d0d0d0;
     background-color: #ededed;
     box-sizing: border-box;
     padding: 1rem;
+    border-radius: 6px;
 }
 
 .page-content {
