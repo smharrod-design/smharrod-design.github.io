@@ -5,7 +5,9 @@ body {
     color: #fff;
     margin: 2rem;
 }
-
+a {
+  color: #fff;
+}
 .site-header, .page-header {
   padding: 1rem 2rem;  
   margin-bottom: 2rem;
