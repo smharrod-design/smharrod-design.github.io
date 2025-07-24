@@ -160,6 +160,7 @@ form {
   max-width: 300px;
   margin: auto;
   gap: 2rem;
+  border-radius: 6px;
 }
 
 label {
@@ -169,6 +170,7 @@ label {
 input, textarea {
   min-height: 42px;
   width: 100%;
+  box-sizing: border-box;
 }
 
 button {
@@ -192,13 +194,12 @@ button:hover {
 
 label::after {
   content: '*';
-  color: #b32b3c;
+  color: #fff;
 }
 
 input:focus, textarea:focus {
-  outline: 2px solid #d9949c;
+  outline: 2px solid rgba(255, 255, 255, 0.5);
   outline-offset: 1px;
-  border-color: #b32b3c;
 }
 
 .stat-list {
