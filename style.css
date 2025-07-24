@@ -296,6 +296,7 @@ input:focus, textarea:focus {
   margin-top: 1rem;
   max-width: 600px;
   margin: auto;
+  margin-bottom: 1rem;
 }
 
 .tag {
