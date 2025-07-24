@@ -291,6 +291,8 @@ input:focus, textarea:focus {
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 1rem;
+  max-width: 600px;
+  margin: auto;
 }
 
 .tag {
