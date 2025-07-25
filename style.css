@@ -48,6 +48,9 @@ a {
   body {
     margin: 1rem;
   }
+  .project-page-image{
+    margin: 2rem 0rem;
+}
 }
 .site-header .logo {
   width: 160px;
@@ -311,6 +314,10 @@ input:focus, textarea:focus {
   border-radius: 4px;
   color: #fff;
   white-space: nowrap;
+}
+.tools p {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
 }
 @media (min-width: 768px) {
   .project-link {
