@@ -231,7 +231,7 @@ input:focus, textarea:focus {
   padding: 2rem;
 }
 .container-404 button a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -318,6 +318,11 @@ input:focus, textarea:focus {
 .tools p {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
+}
+.thank-you-gif {
+  border-radius: 12px;
+  height: 160px;
+  border: 1px solid #d0d0d0;
 }
 @media (min-width: 768px) {
   .project-link {
