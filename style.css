@@ -378,6 +378,15 @@ animation: scroll-carousel 24s linear infinite;
   display: block ;
   margin: 4rem auto 2rem auto;
 }
+.emoji-bar{
+ font-family: monospace;
+ max-width: 600px;
+ margin: 0rem auto 1rem auto;
+}
+.emoji-bar span {
+  display: block;
+  letter-spacing: 0.2rem;
+}
 
 @keyframes scroll-carousel {
   0% { transform: translateX(0); }
