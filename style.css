@@ -182,7 +182,7 @@ input, textarea {
 button {
   min-height: 42px;
   background: #fff;
-  color: #000;
+  color: #000 !important;
   font-size: 18px;
   font-weight: 700;
   border: none;
@@ -327,36 +327,56 @@ input:focus, textarea:focus {
 .brand-carousel {
   overflow: hidden;
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 2rem auto;
 }
 
 .carousel-track {
   display: flex;
-  animation: scroll-carousel 20s linear infinite;
+animation: scroll-carousel 24s linear infinite;
+  width: calc(340% + 0rem);
 }
 
 .carousel-item {
   flex: 0 0 auto;
-  padding: 0 1rem;
+  padding: 1rem;
+  margin: 0rem .5rem;
+  min-width: 120px;
+  height: 40px;
+  overflow: hidden;
+  align-content: center;
+  border-radius: 8px;
+  justify-content: center;
+  display: flex;
+  border: 1px solid #d0d0d0;
 }
 
 .brand-carousel img {
-  height: 40px;
   width: auto;
   object-fit: contain;
-  filter: grayscale(80%);
-  opacity: 0.8;
   transition: opacity 0.3s ease;
+  max-width: 120px;
+  max-height: 40px;
+  filter: grayscale(100%) invert(100%);
 }
 
-.brand-carousel img:hover {
-  filter: none;
-  opacity: 1;
+.carousel-item:hover {
+  background: #fff;
+}
+.carousel-item:hover img {
+  filter: grayscale(0) invert(0);
 }
 
 .brand-carousel:hover .carousel-track {
   animation-play-state: paused;
+}
+.about-me a {
+  color: #000;
+  text-decoration: none;
+}
+.about-me {
+  display: block ;
+  margin: 4rem auto 2rem auto;
 }
 
 @keyframes scroll-carousel {
