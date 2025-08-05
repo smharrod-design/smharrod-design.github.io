@@ -324,6 +324,46 @@ input:focus, textarea:focus {
   height: 160px;
   border: 1px solid #d0d0d0;
 }
+.brand-carousel {
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.carousel-track {
+  display: flex;
+  animation: scroll-carousel 20s linear infinite;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  padding: 0 1rem;
+}
+
+.brand-carousel img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(80%);
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.brand-carousel img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+.brand-carousel:hover .carousel-track {
+  animation-play-state: paused;
+}
+
+@keyframes scroll-carousel {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
 @media (min-width: 768px) {
   .project-link {
     flex-direction: row;
