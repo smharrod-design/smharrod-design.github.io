@@ -325,10 +325,10 @@ input:focus, textarea:focus {
   border: 1px solid #d0d0d0;
 }
 .brand-carousel {
-  overflow: hidden;
   width: 100%;
   max-width: 1000px;
   margin: 2rem auto;
+  overflow: hidden;
 }
 
 .carousel-track {
@@ -345,7 +345,7 @@ animation: scroll-carousel 24s linear infinite;
   height: 40px;
   overflow: hidden;
   align-content: center;
-  border-radius: 8px;
+  border-radius: 6px;
   justify-content: center;
   display: flex;
   border: 1px solid #d0d0d0;
@@ -381,11 +381,23 @@ animation: scroll-carousel 24s linear infinite;
 .emoji-bar{
  font-family: monospace;
  max-width: 600px;
- margin: 0rem auto 1rem auto;
+ font-size: 14px;
 }
 .emoji-bar span {
-  display: block;
   letter-spacing: 0.2rem;
+  font-size: 12px;
+}
+.emoji-section {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d0d0d0;
+  padding: 1rem;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 3rem auto 0rem auto;
+  background-color: #333;
+  border-radius: 6px;
+  align-items: left;
 }
 
 @keyframes scroll-carousel {
