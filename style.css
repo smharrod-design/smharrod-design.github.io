@@ -380,25 +380,61 @@ animation: scroll-carousel 24s linear infinite;
 }
 .emoji-bar{
  font-family: monospace;
- max-width: 600px;
  font-size: 14px;
+ margin-bottom: 1rem;
 }
 .emoji-bar span {
   letter-spacing: 0.2rem;
   font-size: 12px;
 }
 .emoji-section {
-  display: flex;
-  flex-direction: column;
   border: 1px solid #d0d0d0;
-  padding: 1rem;
+  padding: 1rem 2rem 0rem 2rem;
   gap: 1rem;
   max-width: 600px;
   margin: 3rem auto 0rem auto;
-  background-color: #333;
+
   border-radius: 6px;
   align-items: left;
+  text-align: left;
 }
+.emoji-section small {
+  font-family: monospace;
+  font-size: 12px;
+  margin-top: 2rem;
+  display: block;
+}
+.timeline {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  margin: 4rem auto;
+  max-width: 600px;
+}
+
+.timeline-year {
+  position: sticky;
+  top: 2rem;
+  font-weight: bold;
+  color: #fff;
+  align-self: start;
+  background-color: #000;
+  font-family: monospace;
+  margin-right: 2rem;
+}
+
+.timeline-content {
+  padding-bottom: 4rem;
+  border-left: 2px solid #d0d0d0;
+  padding-left: 2rem;
+}
+.timeline-year:first-child::after {
+  content: '•';
+  position: absolute;
+  right: -2.95rem;
+  font-size: 3rem;
+  top: -1.5rem;
+}
+
 
 @keyframes scroll-carousel {
   0% { transform: translateX(0); }
