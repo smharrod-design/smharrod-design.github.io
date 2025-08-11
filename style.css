@@ -252,8 +252,8 @@ input:focus, textarea:focus {
   aspect-ratio: 16 / 10;
 }
 .swiper-slide {
-  background: #fff;
-  display: flex;
+  background: #000;
+  display: flex !important;
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
@@ -291,6 +291,11 @@ input:focus, textarea:focus {
   height: 100%;
   border: none;
   display: block;
+}
+.swiper-slide video {
+object-fit: cover;
+max-height: 100%;
+max-width: 100%;
 }
 :root {
   --swiper-navigation-size: 24px !important;
@@ -459,5 +464,10 @@ margin-left: 0.2rem;;
   }
   .project-text {
     padding: 1rem 1rem 1rem 0rem;
+  }
+}
+  @media (max-width: 768px) {
+  .carousel-track {
+  width: calc(960% + 0rem);
   }
 }
