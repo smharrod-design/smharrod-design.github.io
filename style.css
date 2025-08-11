@@ -14,14 +14,6 @@ a {
   border-radius: 8px;
 }
 
-.site-header .container {
-  display: flex;
-  flex-direction: row;
-  gap: 4rem;
-  align-items: center;
-  justify-content: center;
-}
-
 @media (min-width: 768px) {
   .project-link {
     flex-direction: row;
@@ -54,6 +46,14 @@ a {
   .site-header {
     padding: 0.5rem 0rem;
   }
+}
+
+.site-header .container {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-text {
