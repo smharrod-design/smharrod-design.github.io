@@ -14,14 +14,6 @@ a {
   border-radius: 8px;
 }
 
-@media (min-width: 768px) {
-  .project-link {
-    flex-direction: row;
-  }
-  .project-text {
-    padding: 1rem 1rem 1rem 0rem;
-  }
-}
 @media (max-width: 768px) {
   .site-header .container {
     flex-direction: column;
@@ -90,6 +82,23 @@ a {
   flex-direction: column;
   gap: 2rem; ;
 }
+
+@media (min-width: 768px) {
+  .project-link {
+    flex-direction: row;
+    gap: 0rem;
+  }
+  .project-text {
+    padding: 1rem 1rem 1rem 0rem;
+  }
+  .project-image {
+    width: 50% !important;
+  }
+  .tag-container {
+    margin-bottom: 0rem;
+  }
+}
+
 .site-header a:hover,
 .site-footer a:hover {
   text-decoration: none;
