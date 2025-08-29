@@ -77,7 +77,8 @@ a {
   color: inherit;
   display: flex;
   flex-direction: column;
-  gap: 2rem; ;
+  gap: 2rem;
+  min-height: 400px;
 }
 .site-header a:hover,
 .site-footer a:hover {
