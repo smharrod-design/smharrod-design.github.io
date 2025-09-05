@@ -480,3 +480,56 @@ margin-left: 0.2rem;;
   width: calc(960% + 0rem);
   }
 }
+/* Hide mobile alt by default */
+.prototype-mobile {
+  display: none;
+  text-align: center;
+  margin: 4rem 0rem;
+}
+
+.prototype-mobile img {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.prototype-link {
+  color: #fff;
+  text-decoration: none; 
+}
+.prototype-link .link-text {
+  text-decoration: underline; 
+}
+.prototype-link .icon {      
+  vertical-align: super;    
+}
+/* Shared styles for all prototypes */
+.prototype-embed iframe {
+  width: 100%;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  margin: 4rem 0rem;
+}
+
+/* Phone (portrait) */
+.prototype-phone iframe {
+  aspect-ratio: 9 / 16;
+  max-height: 700px;
+}
+
+/* Desktop (landscape) */
+.prototype-desktop iframe {
+  aspect-ratio: 16 / 9;
+  max-height: 600px;
+}
+.external-icon {
+  vertical-align: super;       /* lifts it up top-right */
+}
+@media (max-width: 768px) {
+  .prototype-embed {
+    display: none;
+  }
+  .prototype-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
