@@ -8,10 +8,29 @@ body {
 a {
   color: #fff;
 }
+:focus {
+  outline: 2px solid white;
+  outline-offset: .25rem;
+  border-radius: 2px;
+}
 .site-header, .page-header {
   padding: 1rem 2rem;  
   margin-bottom: 2rem;
   border-radius: 8px;
+}
+.intro {
+  max-width: 600px;
+  margin: 0 auto 4rem auto;
+  text-align: center;
+}
+.read-more-button {
+  background: transparent;
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid #fff;
+  padding: 6px 16px;
+  border-radius: 4px;
 }
 
 .site-header .container {
@@ -142,7 +161,7 @@ a {
     padding: 1rem;
 }
 .page-content p {
-margin-bottom: 4rem;
+margin-bottom: 1rem;
 }
 .page-content .tag-container {
 margin-bottom: 4rem;
