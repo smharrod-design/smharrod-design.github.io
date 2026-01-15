@@ -4,9 +4,13 @@ body {
     background: #000;
     color: #fff;
     margin: 2rem;
+    cursor: url('assets/cursor/default.svg'), auto;
 }
 a {
   color: #fff;
+}
+a:hover, .swiper:hover .swiper-button-next, .swiper:hover .swiper-button-prev, button:hover, .project-card:hover {
+  cursor: url('assets/cursor/pointer.svg'), pointer;
 }
 :focus {
   outline: 2px solid white;
@@ -221,7 +225,6 @@ button {
 }
 
 button:hover {
-  cursor: pointer;
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
   transform: translateY(-2px);
 }
