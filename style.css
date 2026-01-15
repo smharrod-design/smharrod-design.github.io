@@ -10,8 +10,11 @@ a {
 }
 :focus {
   outline: 2px solid white;
-  outline-offset: .25rem;
-  border-radius: 2px;
+  outline-offset: 4px;
+}
+section:focus-within {
+  outline: 2px solid white;
+  outline-offset: 4px;
 }
 .site-header, .page-header {
   padding: 1rem 2rem;  
@@ -288,6 +291,12 @@ input:focus, textarea:focus {
 .swiper-button-next,
 .swiper-button-prev {
   color: #000 !important;
+  background: #fff;
+  margin-left: 1rem !important;
+  margin-right: 1rem;
+  padding: .5rem;
+  border-radius: 8px;
+  border: 1px solid #000;
 }
 .swiper-pagination {
   color: #000 !important;
@@ -303,13 +312,13 @@ input:focus, textarea:focus {
 }
 .swiper-button-next,
 .swiper-button-prev {
-  opacity: 0;
+  opacity: .33;
   transition: opacity 0.3s ease;
 }
 
 .swiper:hover .swiper-button-next,
 .swiper:hover .swiper-button-prev {
-  opacity: 1;
+  opacity: .8;
 }
 .swiper-slide iframe {
   width: 100%;
