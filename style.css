@@ -26,18 +26,20 @@ section:focus-within {
   border-radius: 8px;
 }
 .intro {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto 4rem auto;
   text-align: center;
 }
 .read-more-button {
   background: transparent;
   color: #fff !important;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   border: 1px solid #fff;
   padding: 6px 16px;
   border-radius: 4px;
+  margin: unset;
+  margin-top: auto;
 }
 
 .site-header .container {
@@ -103,7 +105,6 @@ section:focus-within {
   color: inherit;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
   min-height: 400px;
 }
 .site-header a:hover,
@@ -113,7 +114,7 @@ section:focus-within {
 
 .project-card {
   border: 1px solid #d0d0d0;
-  margin: 2rem 1rem;
+  margin: 6rem 1rem;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -140,6 +141,7 @@ section:focus-within {
 .project-text h2 {
   font-weight: 700;
   margin-bottom: 0.5rem;
+  font-size: 1.8rem;
 }
 
 .project-text p {
@@ -149,6 +151,9 @@ section:focus-within {
 .project-text {
   padding: 0rem 2rem 2rem 2rem;
   flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
 }
 
 .project-page-image{
@@ -342,10 +347,9 @@ max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-top: 1rem;
+  margin: 1rem auto 2rem auto;
   max-width: 600px;
-  margin: auto;
-  margin-bottom: 1rem;
+  opacity: 0.66;
 }
 
 .tag {
@@ -503,7 +507,7 @@ margin-left: 0.2rem;;
     width: 50%;
   }
   .project-text {
-    padding: 1rem 1rem 1rem 0rem;
+    padding: 1rem 1rem 2rem 2rem;
   }
 }
   @media (max-width: 768px) {
@@ -563,4 +567,10 @@ margin-left: 0.2rem;;
     flex-direction: column;
     align-items: center;
   }
+}
+.brands {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 0rem;
+  justify-content: center;
 }
