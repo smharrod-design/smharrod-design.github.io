@@ -9,6 +9,9 @@ body {
 a {
   color: #fff;
 }
+p {
+  opacity: 0.8;
+}
 a:hover, .swiper:hover .swiper-button-next, .swiper:hover .swiper-button-prev, button:hover, .project-card:hover {
   cursor: url('assets/cursor/pointer.svg'), pointer;
 }
@@ -65,6 +68,9 @@ section:focus-within {
     justify-content: center;
     margin-top: 1rem;
   }
+  .project-text {
+  order: 2
+}
   .page-header .logo {
     height: auto;
     margin-left: auto;
@@ -350,6 +356,10 @@ max-width: 100%;
   margin: 1rem auto 2rem auto;
   max-width: 600px;
   opacity: 0.66;
+}
+
+.project-text .tag-container {
+margin: 1rem 0rem 2rem 0rem;
 }
 
 .tag {
