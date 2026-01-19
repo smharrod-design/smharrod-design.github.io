@@ -9,9 +9,10 @@ body {
 a {
   color: #fff;
 }
-p {
+p, li {
   opacity: 0.8;
 }
+
 a:hover, .swiper:hover .swiper-button-next, .swiper:hover .swiper-button-prev, button:hover, .project-card:hover {
   cursor: url('assets/cursor/pointer.svg'), pointer;
 }
@@ -583,4 +584,21 @@ margin-left: 0.2rem;;
   flex-wrap: wrap;
   gap: 1rem 0rem;
   justify-content: center;
+}
+
+.logo path {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
 }
