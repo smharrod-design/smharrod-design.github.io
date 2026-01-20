@@ -30,9 +30,15 @@ section:focus-within {
   border-radius: 8px;
 }
 .intro {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto 4rem auto;
   text-align: center;
+}
+.intro h1 {
+  text-transform: uppercase; opacity: 0.8; font-size: 1rem; font-weight: normal;
+}
+.intro h2 {
+font-size: 2.5rem; opacity: 1; margin-top: 0rem;
 }
 .read-more-button {
   background: transparent;
@@ -100,6 +106,9 @@ section:focus-within {
 .site-footer a {
   color: #fff;
   text-decoration: underline;
+}
+.site-footer p {
+    opacity: 1;
 }
 
 .home-titles {
@@ -356,7 +365,7 @@ max-width: 100%;
   gap: 0.5rem;
   margin: 1rem auto 2rem auto;
   max-width: 600px;
-  opacity: 0.66;
+  opacity: 0.8;
 }
 
 .project-text .tag-container {
@@ -586,19 +595,50 @@ margin-left: 0.2rem;;
   justify-content: center;
 }
 
+
+
+
 .logo path {
   fill: none;
   stroke: #fff;
   stroke-width: 6;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
 
-  stroke-dasharray: 400;
-  stroke-dashoffset: 400;
+/* underline path only */
+.logo .underline {
+  transition: stroke-dashoffset 0.4s ease;
 }
 
 @keyframes draw {
   to {
     stroke-dashoffset: 0;
   }
+}
+
+.chrome {
+ background: linear-gradient(135deg, #828282, #ffffff, #828282, #ffffff);
+ background-size:400%;
+ animation: text-gradient 6s linear infinite;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ background-clip: text;
+   text-fill-color: transparent;
+   text-shadow: 0 2px 6px rgba(255, 255, 255, 0.33);
+}
+
+@keyframes text-gradient {
+ 0% {
+  background-position: 100% 50%;
+ }
+ 30% {
+  background-position: 0% 50%;
+ }
+  70% {
+  background-position: 0% 50%;
+ }
+  100% {
+  background-position: 0% 50%;
+ }
 }
